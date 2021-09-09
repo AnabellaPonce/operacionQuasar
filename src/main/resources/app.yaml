@@ -1,0 +1,15 @@
+runtime: java
+env: flex
+runtime_config:
+  jdk: openjdk8
+  
+SERVER_PORT:8080
+PATH_LOG_FILE:quasar.log
+API_MAJOR_VERSION:api/v1
+TOPSECRET_CONTEXT_PATH:/${api.major.version}/topsecret
+TOPSECRETSPLIT_CONTEXT_PATH:/${api.major.version}/topsecret_split/{satellite_name}
+SATELLITES__0_POSITION:-500.0,-200.0
+SATELLITES__1_POSITION:100.0,-100.0
+SATELLITES__2_POSITION:500.0,100.0
+SATELLITES_NUMBERS:3
+SATELLITES_POSITION_DIMENSIONS:2
